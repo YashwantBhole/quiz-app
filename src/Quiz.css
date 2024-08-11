@@ -5,19 +5,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
     background: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
     margin: 0;
-    text-align: center;
-    width:100%;
+
 }
 
 /* Container styles */
 .quiz-container {
+
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 750px;
-    width: 80%;
+    max-width: 700px;
+    width: 100%;
     padding: 20px;
     text-align: center;
     animation: fadeIn 0.5s ease-in-out;
@@ -25,17 +26,23 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Question styles */
 #question {
     font-size: 20px;
     margin-bottom: 20px;
-    animation: slideInLeft 0.5s ease-in-out;
+    /* animation: slideInLeft 1s ease-in-out; */
     font-weight: 900;
     background-color: yellow;
     color:black;
 }
+.question.animate{
+ animation: slideInLeft 0.5s ease-in-out;
+}
+
 
 /* Option button styles */
 .option {
@@ -46,7 +53,8 @@ body {
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
-    color: black;
+    background-color: transparent #121212 ;
+    color:black;
     transition: background-color 0.3s, transform 0.3s;
     font-weight: bold;
 }
@@ -91,7 +99,7 @@ body {
 .buttons{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 #pre-button{
     display: none;
@@ -136,7 +144,8 @@ body {
 
 @media(max-width:580px){
     .quiz-container{
-        max-width: 300px;
+        max-width:380px;
+
     }
 }
 
@@ -144,6 +153,7 @@ body {
 @keyframes fadeIn {
     from {
         opacity: 0;
+    
     }
     to {
         opacity: 1;
