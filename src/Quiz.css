@@ -142,9 +142,9 @@ body {
     }
 }
 
-@media(max-width:580px){
+@media(max-width:480px){
     .quiz-container{
-        max-width:380px;
+        max-width:300px;
 
     }
 }

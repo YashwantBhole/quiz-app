@@ -76,8 +76,8 @@ background-color: darkblue;
 
 @media(max-width:580px) {
     .result-container {
-        max-width: 380px;
-        max-height: 500px;
+        max-width: 300px;
+        max-height: 450px;
         margin: auto;
     }
 }
