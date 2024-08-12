@@ -17,7 +17,7 @@ body {
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 700px;
+    max-width: 500px;
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -145,7 +145,10 @@ body {
 @media(max-width:480px){
     .quiz-container{
         max-width:300px;
-
+ 
+    }
+    #question{
+        font-size: 17px;
     }
 }
 
