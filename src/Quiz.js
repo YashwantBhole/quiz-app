@@ -71,7 +71,7 @@ const Quiz = () => {
 
     const handleClose = () => {
         window.close(true);
-        window.alert('quix closed')
+     
     }
 
     useEffect(() => {
