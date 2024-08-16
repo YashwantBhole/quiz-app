@@ -22,7 +22,7 @@ body {
     padding: 20px;
     text-align: center;
     animation: fadeIn 0.5s ease-in-out;
-    background: url('/public/quizBack.jpg');
+    background: url('/public/quizBack3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,8 +36,9 @@ body {
     margin-bottom: 20px;
     /* animation: slideInLeft 1s ease-in-out; */
     font-weight: 900;
-    background-color: yellow;
+    background-color: rgb(237, 237, 143);
     color:black;
+    box-shadow: 2px 2px 2px 2px black;
 }
 .question.animate{
  animation: slideInLeft 0.5s ease-in-out;
@@ -49,7 +50,7 @@ body {
     display: block;
     margin: 10px 0;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid transparent #f0ecec;
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
